@@ -11,11 +11,8 @@ Reading the below sections in the written order will help better understand all 
 
  ## Python
 
-**model**
-The model folder contains pre-trained teacher models, where the filenames correspond to the teacher models trained with the respective number of antennas.
-
-**dataset**
-The dataset folder contains the training dataset and the test dataset.
+**ChannelData_generation.m**
+Gemerate the training dataset and the test dataset.
 
 **student.py**
 Student.py uses knowledge distillation to enable the lightweight student model to learn from the pre-trained teacher model.
