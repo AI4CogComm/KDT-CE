@@ -12,7 +12,7 @@ Reading the below sections in the written order will help better understand all 
  ## Python
 
 **ChannelData_generation.m**
-Gemerate the training dataset and the test dataset.
+Generate the training dataset and the test dataset.
 
 **student.py**
 Student.py uses knowledge distillation to enable the lightweight student model to learn from the pre-trained teacher model.
